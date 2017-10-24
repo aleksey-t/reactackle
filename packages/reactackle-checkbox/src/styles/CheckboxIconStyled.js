@@ -1,5 +1,5 @@
-'use strict';
 
+import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import {
@@ -80,7 +80,7 @@ const iconStyle = ({ checked, disabled, theme: themeFromProvider }) => {
 };
 
 /* Styles */
-export const CheckboxIconStyled = styled.div`
+export const CheckboxIconStyled = styled(({ ...props }) => <div tabIndex="0" {...props}/>)`
   position: absolute;
   z-index: 1;
   ${iconSize};
