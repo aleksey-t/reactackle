@@ -25,6 +25,7 @@ exports[`<Checkbox/> could one call onChange event before call change event on <
         checked={false}
         className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf cAoYPJ"
         disabled={false}
+        tabIndex="0"
       >
         <span
           className="fa fa-check IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
@@ -64,6 +65,7 @@ exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
         checked={true}
         className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf bfdZzE"
         disabled={false}
+        tabIndex="0"
       >
         <span
           className="fa fa-check IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
@@ -103,6 +105,7 @@ exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
         checked={true}
         className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf bfdZzE"
         disabled={false}
+        tabIndex="0"
       >
         <span
           className="fa fa-check IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
@@ -142,6 +145,7 @@ exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
         checked={false}
         className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf jqZyCc"
         disabled={true}
+        tabIndex="0"
       >
         <span
           className="fa fa-check IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
@@ -181,6 +185,7 @@ exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
         checked={false}
         className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf cAoYPJ"
         disabled={false}
+        tabIndex="0"
       >
         <span
           className="fa fa-check IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
@@ -227,6 +232,7 @@ exports[`<Checkbox/> renders correctly with default props 1`] = `
         checked={false}
         className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf cAoYPJ"
         disabled={false}
+        tabIndex="0"
       >
         <span
           className="fa fa-check IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
